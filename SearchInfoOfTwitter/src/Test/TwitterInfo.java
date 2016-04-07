@@ -11,6 +11,8 @@ public class TwitterInfo {
 	private Date date;
 	
 	private String client;
+	
+	private String place;
 
 	/**
 	 * @return the id
@@ -70,7 +72,21 @@ public class TwitterInfo {
 
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.println("Id:"+id+";content:"+content+";Date:"+date+";Client:"+client);
+		System.out.println("Id:"+id+"; Date:"+date+"; Place:"+place+"; content:"+content+"; Client:"+client);
+	}
+
+	/**
+	 * @return the place
+	 */
+	public String getPlace() {
+		return place;
+	}
+
+	/**
+	 * @param place the place to set
+	 */
+	public void setPlace(String place) {
+		this.place = place;
 	}
 	
 	
